@@ -1,0 +1,26 @@
+{
+  "name": "jspack",
+  "homepage": "https://github.com/ericzhangjx/jspack",
+  "authors": [
+    "Eric Zhang <ericzhangjx@outlook.com>"
+  ],
+  "description": "Python struct module implementation in JavaScript; Exported from code.google.com/p/jspack;",
+  "main": "./struct.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "struct",
+    "Python",
+    "js",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
