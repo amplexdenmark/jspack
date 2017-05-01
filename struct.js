@@ -16,7 +16,8 @@ var Struct = new function () {
 
     // Raw byte arrays
     m._DeArray = function (a, p, l) {
-        return [a.slice(p, p + l)];
+        if (a.slice) return [a.slice(p, p + l)];
+        return [a.subarray(p, p + l)];
     };
     m._EnArray = function (a, p, l, v) {
         for (var i = 0; i < l; a[p + i] = v[i] ? v[i] : 0, i++);
